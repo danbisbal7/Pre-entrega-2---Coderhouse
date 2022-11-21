@@ -1,0 +1,498 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: darkgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estilos del header */
+
+header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+
+header {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        height: 20vh;  
+}
+
+header .encabezado-titulo {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+}
+
+header h1 {
+        font-size: 40px;
+        text-shadow: 2px 2px 5px darkslategrey;
+        font-weight: bold;
+}
+
+ header h2 {
+        font-size: 20px;
+        text-shadow: 2px 2px 5px darkslategrey;
+}
+    
+    header .redes-sociales, header .suscripcion-boton, header .menu-navegacion {
+        display: none;
+}
+
+
+/* estilos del index - main */
+
+main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+
+}
+
+main .main-thumb img {
+        width: 100%;
+}
+
+main .main-texto p {
+        text-align: justify;
+        padding: 1rem 0;
+}
+
+ /* estilos del index - section */
+
+section {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+section .aside-titulo {
+     margin: 20px;
+}
+
+section .aside-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+}
+
+section .aside-noticia img {
+    width: 100%;
+}
+
+section .aside-noticia p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+/* estilos de pagina noticias */
+
+main .noticias-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+main .noticias-main img {
+    width: 100%;
+}
+
+main .noticias-main h4 {
+    text-align: center;
+    font-size: 1,5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+main .noticias-main p {
+    text-align: justify;
+    margin-bottom: 3rem;
+    border-bottom: solid 2px darkslategrey;
+    padding-bottom: 2rem;
+}
+
+/* estilos pagina trailers */
+
+main .trailers-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+main .trailers-contenedor-video iframe {
+    width: 100%;
+}
+
+main .trailers-contenedor-titulo h4 {
+    text-align: center;
+    font-size: 1,5rem;
+    font-weight: bold;      
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+/* estilos pagina galeria */
+
+main .galeria-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+main .galeria-contenedor-foto img {
+    width: 100%;
+}
+
+main .galeria-contenedor-descripcion p {
+    text-align: justify;
+    margin-bottom: 3rem;
+    border-bottom: solid 2px darkslategrey;
+    padding: 2rem 0;
+}
+
+
+/* estilos pagina contacto */
+
+main .contacto-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+main .contacto-contenido p {
+    text-align: justify;
+    padding: 0.5rem 0;
+}
+
+main .contacto-imagen img {
+    width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+main .suscribete-titulo h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 6px darkslategrey;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px darkslategrey;
+}
+
+main .suscribete-imagen {
+    display: none;
+}
+
+
+
+/* estilos de footer */
+
+footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: lightgrey;
+    
+}
+
+footer .redes-sociales-footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales-footer a {
+    color: darkslategrey;
+    text-align: center;
+    display: block;
+    padding: 2px ;
+    border-radius: 3px;
+    font-size: 2.5rem;
+    margin: 0 10px;
+    
+}
+
+footer .copyrights {
+    text-align: center;
+}
+
+footer .copyrights p {
+    font-size: 1rem;
+}
+
+/* estilos version desktop */
+
+@media screen and (min-width:1024px) {
+    
+    /* estilos header desktop */
+    header {
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    header .encabezado-titulo {
+        text-align: center;
+        width: 50%;
+        margin-bottom: 1.5rem;
+    }
+
+    header .encabezado-titulo h1 {
+        font-size: 70px;
+    }
+    
+    header .encabezado-titulo h2 {
+        font-size: 30px;
+    }
+
+    header .dropdown {
+        display: none;
+    }
+
+    header .redes-sociales, header .suscripcion-boton {
+        display: block;
+    }
+
+    
+    header .menu-navegacion {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header nav ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    header nav ul li {
+        padding: 10px 60px;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    header nav ul li:hover {
+        transform: scale(0.9);
+        border-bottom: solid 2px grey;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px black;
+        font-weight: bold;
+    }
+
+    header nav ul li a:hover{
+        color: whitesmoke;
+        
+    }
+
+    header .redes-sociales a {
+        color: darkslategrey;
+        text-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-size: 2.5rem;
+        margin: 0 10px;
+    }
+
+    header .redes-sociales a:hover{
+        transform: scale(0.9);
+        border-bottom: solid 2px grey;
+    }
+
+    /* estilos del footer desktop */
+
+    footer {
+        height: 10vh;
+    }
+
+    footer .redes-sociales-footer {
+        display: none;
+    }
+
+    /* estilos index - main desktop */
+
+    main .main-index {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 65% 30%;
+        grid-template-rows: 10% 30% 20% 20% 20%;
+        grid-column-gap: 5%;
+    }
+
+    /* estilos noticias - main desktop */
+
+    main .main-noticias {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .noticias-titulo h3 {
+        font-size: 3rem;
+    }
+
+    main .noticias-main-img img {
+        float: left;
+        width: 25%;
+        margin-right: 15px;
+        border-radius: 15%;
+        box-shadow: 2px 2px 2px black;
+        
+    } 
+
+    main .noticias-titulo {
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* estilos de pagina noticias
+
+main .noticias-titulo {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+main .noticias-main {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+main .noticias-main h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main .noticias-main p {
+    line-height: 25px;
+}
+
+main .noticias-main img {
+    width: 350px;
+}
+
+/* estilos de pagina galeria
+
+main .galeria-titulo {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+main .galeria-contenedor {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+main .galeria-contenedor-foto img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+main .galeria-contenedor-descripcion {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* estilos de pagina trailers
+
+main .trailers-titulo {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+main .trailers-contenedor {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+main .trailers-contenedor-titulo h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/* estilos de pagina contacto
+
+main .contacto-titulo, main .suscribete-titulo {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+main .contacto-contenido {
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+main p .bold {
+    font-weight: bold;
+}
+
+main .contacto-imagen img, main .suscribete-imagen img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+main .suscribete-formulario {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* estilos del footer 
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+} */
