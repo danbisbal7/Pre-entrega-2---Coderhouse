@@ -366,6 +366,10 @@ footer .copyrights p {
         flex-wrap: wrap;
     }
 
+    main .noticias-titulo {
+        width: 100%;
+    }
+
     main .noticias-titulo h3 {
         font-size: 3rem;
     }
@@ -378,9 +382,5 @@ footer .copyrights p {
         box-shadow: 2px 2px 2px black;
         
     } 
-
-    main .noticias-titulo {
-        width: 100%;
-    }
 
 }
