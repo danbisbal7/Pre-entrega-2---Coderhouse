@@ -185,6 +185,7 @@ main .galeria-contenedor-descripcion p {
 
 /* estilos pagina contacto */
 
+
 main .contacto-titulo h3 {
     font-size: 2rem;
     text-align: center;
@@ -370,7 +371,10 @@ footer .copyrights p {
         width: 100%;
     }
 
-    main .noticias-titulo h3 {
+    main .noticias-titulo h3, 
+    main .trailers-titulo h3, 
+    main .galeria-titulo h3,
+    main .contacto-titulo h3 {
         font-size: 3rem;
     }
 
@@ -382,5 +386,14 @@ footer .copyrights p {
         box-shadow: 2px 2px 2px black;
         
     } 
+
+    /* estilos trailers - main desktop */
+
+    main .trailers-contenedor {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto;
+        grid-column-gap: 10%;
+    }
 
 }
